@@ -1,4 +1,7 @@
-version: '3'
+# This docker-compose file is for running Nakama with CockroachDB as the database.
+# It uses the official CockroachDB image and the Nakama image from Heroic Labs.
+# It also includes a Prometheus service for monitoring Nakama.
+
 services:
   cockroachdb:
     image: cockroachdb/cockroach:latest-v23.1

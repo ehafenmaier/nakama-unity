@@ -1,4 +1,6 @@
-version: '3'
+# This docker-compose file is for running Nakama with PostgreSQL as the database.
+# It uses the official PostgreSQL image and the Nakama image from Heroic Labs.
+
 services:
   postgres:
     container_name: postgres
